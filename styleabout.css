@@ -1,0 +1,90 @@
+*{
+    background-color:  #f7e9d1;
+}
+body {
+    font-family: cursive;
+    color:#ec729c;
+    margin: 0;
+    padding: 0;
+}
+.headerabout {
+    font-weight: bold;
+    font-size: 3.2em;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.imagehome{
+    border: 1px solid  #ec729c; 
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.imagehome:hover{
+    background-color:   #ec729c;
+    color: #f7e9d1;
+}
+.headerabout{
+    padding: 20px;
+    text-align: center;
+}
+
+.products {
+    padding: 10px 10px;
+    border: 1px solid  #ec729c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    text-decoration: none;
+    color: #ec729c;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: auto; 
+}
+
+.products:hover {
+    background-color:   #ec729c;
+    color: #f7e9d1;
+}
+main {
+ 
+    position: relative;
+    text-align: center;
+}
+
+main p {
+    position: absolute;
+    top: 350px;
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 20%; 
+    padding: 20px;
+    border-radius: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    font-size: 1.2em;
+    background-color: #f7e9d1;
+    color:#ff007b;
+    border: 1px solid  #ec729c; 
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.address {
+    text-decoration: none;
+    color: #ec729c;
+}
+.address:hover{
+   font-style: oblique;
+    color:#ff007b; 
+}
+figure a {
+ text-decoration: none;
+  
+}
+
+figure a:hover{
+    
+    border:1px solid #ff007b;
+}

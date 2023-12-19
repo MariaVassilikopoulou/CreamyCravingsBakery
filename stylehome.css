@@ -1,0 +1,153 @@
+/**{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{ 
+    height: 100vh;
+    background-color:  #f4aeba;/*#ffe9e3;*/
+  /*  width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*header{
+    width: 100%;
+}
+
+nav{
+    color: #ec729c;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    gap: 5rem;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: oblique;
+    
+    
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+ 
+    border: solid   #ffe9e3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    padding: 60px;
+    width: 520px;
+    border-radius: 300px;
+    background-color: #ffe9e3;
+     margin-top: 20px;
+   
+   
+}
+.cake{
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 100px;
+}
+ p{
+    color: #ec729c;;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 40px;
+ }
+
+ footer{
+    margin-top: 20px;
+    margin-top: 450px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #ec729c;
+ }*/
+ 
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+body {
+    font-family: cursive;
+  
+    color:#ec729c;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #ffe9e3 ; 
+
+}
+
+
+header {
+    background-color:   #f7e9d1;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+nav a {
+    text-decoration: none;
+    color: #ec729c; 
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color:  #f4aeba; 
+    background-color:  #ec729c; 
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+
+main {
+    text-align: center;
+    padding: 180px;
+    height:50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+    background-color: #ffe9e3 ; 
+   
+}
+
+p {
+    color: #ec729c;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: oblique;
+    margin-bottom: 20px;
+}
+
+.cake {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+}
+
+
+footer {
+    background-color: #f7e9d1; 
+    text-align: center;
+    padding: 20px;
+   color: #ec729c; 
+    font-family: cursive;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+}
