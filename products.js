@@ -11,7 +11,6 @@
        
     ];
 
-
 const productsSection = document.getElementById("productsSection");
 
 products.forEach(product => {
@@ -92,7 +91,5 @@ function showCart() {
         })
         cartItem.appendChild(removeProductButton);
         cartItems.appendChild(cartItem);
-        
     });
-    
 }
